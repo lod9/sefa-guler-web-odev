@@ -1,0 +1,11 @@
+body {
+    transition: all 0.2s;
+}
+#dropdown-box-1 {
+    display: none;
+}
+#dropdown-box-1 a:hover {color: #AC88FF;}
+
+#dropdown-menu-1:hover #dropdown-box-1 {display: flex;}
+
+#dropdown-box-1:hover #dropdown-box-1 {display: flex;}
